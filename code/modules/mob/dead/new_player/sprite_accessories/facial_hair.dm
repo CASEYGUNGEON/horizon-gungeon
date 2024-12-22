@@ -3,7 +3,7 @@
 /////////////////////////////
 
 /datum/sprite_accessory/facial_hair
-	icon = 'icons/mob/sprite_accessory/human_facialhair.dmi'
+	icon = 'icons/mob/sprite_accessory/facial_hair.dmi'
 	gender = MALE
 	bodytypes = BODYTYPE_HUMANOID
 

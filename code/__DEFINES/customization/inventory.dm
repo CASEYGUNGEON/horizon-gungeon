@@ -9,6 +9,7 @@
 #define BODYTYPE_VOX (1<<5)
 #define BODYTYPE_TESHARI (1<<6)
 #define BODYTYPE_DIONA (1<<7)
+#define BODYTYPE_SKRELL (1<<8)
 //All bodytypes
 #define ALL_BODYTYPES (\
 	BODYTYPE_HUMANOID|\
@@ -18,7 +19,8 @@
 	BODYTYPE_TAUR_HOOF|\
 	BODYTYPE_VOX|\
 	BODYTYPE_TESHARI|\
-	BODYTYPE_DIONA\
+	BODYTYPE_DIONA|\
+	BODYTYPE_SKRELL\
 	)
 //Bodytypes *mostly* resembling a humanoid, this is set on things by default
 #define GENERIC_BODYTYPES (\
@@ -28,7 +30,8 @@
 	BODYTYPE_TAUR_PAW|\
 	BODYTYPE_TAUR_HOOF|\
 	BODYTYPE_VOX|\
-	BODYTYPE_DIONA\
+	BODYTYPE_DIONA|\
+	BODYTYPE_SKRELL\
 	)
 
 #define BODYTYPE_TRANSLATION_LIST list(\
@@ -39,5 +42,6 @@
 		"[BODYTYPE_TAUR_HOOF]" = "taurhoof",\
 		"[BODYTYPE_VOX]" = "vox",\
 		"[BODYTYPE_TESHARI]" = "teshari",\
-		"[BODYTYPE_DIONA]" = "diona"\
+		"[BODYTYPE_DIONA]" = "diona",\
+		"[BODYTYPE_SKRELL]" = "skrell"\
 		)

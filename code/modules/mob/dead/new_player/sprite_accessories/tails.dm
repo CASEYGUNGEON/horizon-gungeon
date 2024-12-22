@@ -361,3 +361,33 @@
 	recommended_species = list("anthromorph", "aquatic", "humanoid", "synthetic", "jelly", "jelly_slime", "slimeperson", "jelly_luminescent", "jelly_stargazer")
 	name = "Tentacles"
 	icon_state = "tentacle"
+
+// Synthetic tails
+
+/datum/sprite_accessory/tails/synthliz
+	recommended_species = list("synthetic")
+	icon = 'icons/mob/sprite_accessory/tails_synthetic.dmi'
+	color_src = USE_ONE_COLOR
+	name = "Synthetic Lizard"
+	icon_state = "synthliz"
+	general_type = "lizard"
+
+// Teshari tails
+
+/datum/sprite_accessory/tails/mammal/teshari
+	icon = 'icons/mob/sprite_accessory/tails_teshari.dmi'
+	recommended_species = list("teshari")
+	general_type = "teshari"
+	bodytypes = BODYTYPE_TESHARI
+
+/datum/sprite_accessory/tails/mammal/teshari/default
+	name = "Teshari Default Tail"
+	icon_state = "teshari_default"
+
+/datum/sprite_accessory/tails/mammal/teshari/fluffy
+	name = "Teshari Fluffy Tail"
+	icon_state = "teshari_fluffy"
+
+/datum/sprite_accessory/tails/mammal/teshari/thin
+	name = "Teshari Thin Tail"
+	icon_state = "teshari_thin"

@@ -23,7 +23,6 @@
 	factions = list(FACTIONS_GENERIC, FACTIONS_HUMAN, FACTIONS_JELLY)
 	mutantlungs = /obj/item/organ/lungs/slime
 	meat = /obj/item/food/meat/slab/human/mutant/slime
-	exotic_blood = /datum/reagent/toxin/slimejelly
 	damage_overlay_type = ""
 	var/datum/action/innate/regenerate_limbs/regenerate_limbs
 	var/datum/action/innate/slime_change/slime_change

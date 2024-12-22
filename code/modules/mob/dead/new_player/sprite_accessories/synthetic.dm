@@ -137,49 +137,6 @@
 
 
 /******************************************
- ************* Synth Antennae *************
- ******************************************/
-
-/datum/sprite_accessory/antenna
-	icon = 'icons/mob/sprite_accessory/ipc_antennas.dmi'
-	color_src = USE_ONE_COLOR
-	default_color = DEFAULT_SECONDARY
-	recommended_species = list("synthetic")
-	key = "ipc_antenna"
-	generic = "Antenna"
-	relevent_layers = list(BODY_ADJ_LAYER)
-
-/datum/sprite_accessory/antenna/is_hidden(mob/living/carbon/human/H, obj/item/bodypart/HD)
-	if(H.head && (H.head.flags_inv & HIDEHAIR) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEHAIR)) || !HD)
-		return TRUE
-	return FALSE
-
-/datum/sprite_accessory/antenna/none
-	name = "None"
-	icon_state = "None"
-	recommended_species = null
-
-/datum/sprite_accessory/antenna/antennae
-	name = "Angled Antennae"
-	icon_state = "antennae"
-
-/datum/sprite_accessory/antenna/tvantennae
-	name = "TV Antennae"
-	icon_state = "tvantennae"
-
-/datum/sprite_accessory/antenna/cyberhead
-	name = "Cyberhead"
-	icon_state = "cyberhead"
-
-/datum/sprite_accessory/antenna/antlers
-	name = "Antlers"
-	icon_state = "antlers"
-
-/datum/sprite_accessory/antenna/crowned
-	name = "Crowned"
-	icon_state = "crowned"
-
-/******************************************
  ************* Synth Chassis **************
  ******************************************/
 

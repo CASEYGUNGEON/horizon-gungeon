@@ -1,6 +1,6 @@
-//////////.//////////////////
-//  MutantLegs Definitions //
-/////////////////////////////
+////////////////////////////
+// MutantLegs Definitions //
+////////////////////////////
 
 /datum/sprite_accessory/legs //legs are a special case, they aren't actually sprite_accessories but are updated with them.
 	icon = null //These datums exist for selecting legs on preference, and little else

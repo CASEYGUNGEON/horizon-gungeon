@@ -1,23 +1,7 @@
-/datum/sprite_accessory/tails/mammal/teshari
-	icon = 'icons/mob/sprite_accessory/teshari_tails.dmi'
-	recommended_species = list("teshari")
-	general_type = "teshari"
-	bodytypes = BODYTYPE_TESHARI
-
-/datum/sprite_accessory/tails/mammal/teshari/default
-	name = "Teshari Default Tail"
-	icon_state = "teshari_default"
-
-/datum/sprite_accessory/tails/mammal/teshari/fluffy
-	name = "Teshari Fluffy Tail"
-	icon_state = "teshari_fluffy"
-
-/datum/sprite_accessory/tails/mammal/teshari/thin
-	name = "Teshari Thin Tail"
-	icon_state = "teshari_thin"
+// Teshari ears
 
 /datum/sprite_accessory/ears/mutant/teshari
-	icon = 'icons/mob/sprite_accessory/teshari_ears.dmi'
+	icon = 'icons/mob/sprite_accessory/ears_teshari.dmi'
 	recommended_species = list("teshari")
 	bodytypes = BODYTYPE_TESHARI
 
@@ -64,19 +48,19 @@
 /datum/sprite_accessory/ears/mutant/teshari/feathers_mushroom
 	name = "Teshari Feathers Mushroom"
 	icon_state = "teshari_feathers_mushroom"
-	color_src = USE_ONE_COLOR 
+	color_src = USE_ONE_COLOR
 
 /datum/sprite_accessory/ears/mutant/teshari/feathers_backstrafe
 	name = "Teshari Feathers Backstrafe"
 	icon_state = "teshari_feathers_backstrafe"
-	color_src = USE_ONE_COLOR 
+	color_src = USE_ONE_COLOR
 
 /datum/sprite_accessory/ears/mutant/teshari/feathers_thinmohawk
 	name = "Teshari Feathers Thin Mohawk"
 	icon_state = "teshari_feathers_thinmohawk"
-	color_src = USE_ONE_COLOR 
+	color_src = USE_ONE_COLOR
 
 /datum/sprite_accessory/ears/mutant/teshari/feathers_thinmane
 	name = "Teshari Feathers Thin Mane"
 	icon_state = "teshari_feathers_thinmane"
-	color_src = USE_ONE_COLOR 
+	color_src = USE_ONE_COLOR

@@ -34,7 +34,7 @@
 	factions = list(FACTIONS_GENERIC, FACTIONS_HUMAN, FACTIONS_SYNTHETIC)
 	mutant_bodyparts = list()
 	default_mutant_bodyparts = list(
-		"ipc_antenna" 	= ACC_RANDOM,
+		"antennaa" 		= ACC_RANDOM,
 		"ipc_screen" 	= ACC_RANDOM,
 		"chassis" 		= ACC_RANDOM,
 		"legs"  		= ACC_RANDOM,

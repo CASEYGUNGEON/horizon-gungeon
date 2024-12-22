@@ -15,7 +15,6 @@
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID
 	default_mutant_bodyparts = list(
 		"tail" = ACC_NONE,
-		"snout" = ACC_NONE,
 		"ears" = ACC_NONE,
 		"legs" = "Normal Legs",
 		"wings" = ACC_NONE,

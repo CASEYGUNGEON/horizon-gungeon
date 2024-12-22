@@ -236,7 +236,7 @@
 	icon_state = "miqote"
 
 /datum/sprite_accessory/ears/mutant/protogen
-	icon = 'icons/mob/sprite_accessory/synthanthro_ears.dmi'
+	icon = 'icons/mob/sprite_accessory/ears_synthetic.dmi'
 	name = "Protogen"
 	icon_state = "protogen"
 	recommended_species = list("synthetic")

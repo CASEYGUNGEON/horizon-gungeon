@@ -14,13 +14,13 @@
 	)
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_BUG
 	default_mutant_bodyparts = list(
-		"tail" = ACC_NONE,
-		"snout" = ACC_NONE,
-		"horns" = ACC_NONE,
-		"ears" = ACC_NONE,
-		"taur" = ACC_NONE,
-		"wings" = "Bee",
-		"moth_antennae" = "Insect",
+		"tail" 		= ACC_NONE,
+		"snout" 	= ACC_NONE,
+		"horns" 	= ACC_NONE,
+		"ears" 		= ACC_NONE,
+		"taur" 		= ACC_NONE,
+		"wings" 	= "Bee",
+		"antennae" 	= "Insect",
 	)
 	cultures = list(CULTURES_GENERIC, CULTURES_HUMAN, CULTURES_INSECT)
 	locations = list(LOCATIONS_GENERIC, LOCATIONS_HUMAN, LOCATIONS_INSECT)

@@ -11,11 +11,6 @@
 		HAS_FLESH,
 		HAS_BONE,
 	)
-	default_mutant_bodyparts = list(
-		"ears" = ACC_NONE,
-		"tail" = ACC_NONE,
-		"wings" = ACC_NONE,
-	)
 	use_skintones = 1
 	skinned_type = /obj/item/stack/sheet/animalhide/human
 	disliked_food = GROSS | RAW | CLOTH

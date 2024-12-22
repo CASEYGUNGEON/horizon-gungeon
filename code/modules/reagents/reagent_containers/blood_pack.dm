@@ -50,18 +50,30 @@
 /obj/item/reagent_containers/blood/b_minus
 	blood_type = "B-"
 
-/obj/item/reagent_containers/blood/o_plus
-	blood_type = "O+"
+/obj/item/reagent_containers/blood/diona
+	blood_type = "D"
+	unique_blood = /datum/reagent/medicine/salglu_solution
 
-/obj/item/reagent_containers/blood/o_minus
-	blood_type = "O-"
+/obj/item/reagent_containers/blood/pod
+	blood_type = "K-"
+	unique_blood = /datum/reagent/consumable/korta_nectar
+
+/obj/item/reagent_containers/blood/podweak
+	blood_type = "K+"
+	unique_blood = /datum/reagent/consumable/korta_milk
 
 /obj/item/reagent_containers/blood/lizard
 	blood_type = "L"
 
 /obj/item/reagent_containers/blood/ethereal
-	blood_type = "LE"
+	blood_type = "L.E."
 	unique_blood = /datum/reagent/consumable/liquidelectricity
+
+/obj/item/reagent_containers/blood/o_plus
+	blood_type = "O+"
+
+/obj/item/reagent_containers/blood/o_minus
+	blood_type = "O-"
 
 /obj/item/reagent_containers/blood/universal
 	blood_type = "U"

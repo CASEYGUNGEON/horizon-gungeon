@@ -2,7 +2,7 @@
 // Hair Definitions //
 //////////////////////
 /datum/sprite_accessory/hair
-	icon = 'icons/mob/sprite_accessory/human_hair.dmi'
+	icon = 'icons/mob/sprite_accessory/hair.dmi'
 	bodytypes = BODYTYPE_HUMANOID
 
 	// please make sure they're sorted alphabetically and, where needed, categorized

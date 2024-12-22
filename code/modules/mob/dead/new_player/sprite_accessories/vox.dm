@@ -1,6 +1,6 @@
 //The snouts
 /datum/sprite_accessory/snouts/vox
-	icon = 'icons/mob/sprite_accessory/vox_snouts.dmi'
+	icon = 'icons/mob/sprite_accessory/snouts_vox.dmi'
 	default_color = DEFAULT_SECONDARY
 	name = "Vox Snout"
 	icon_state = "vox"
@@ -8,7 +8,7 @@
 
 //The hairstyles
 /datum/sprite_accessory/hair/vox
-	icon = 'icons/mob/sprite_accessory/vox_hair.dmi'
+	icon = 'icons/mob/sprite_accessory/hair_vox.dmi'
 	recommended_species = list("vox")
 	bodytypes = BODYTYPE_VOX
 	special = TRUE
@@ -71,7 +71,7 @@
 
 //The facial hairstyles
 /datum/sprite_accessory/facial_hair/vox
-	icon = 'icons/mob/sprite_accessory/vox_facial_hair.dmi'
+	icon = 'icons/mob/sprite_accessory/facial_hair_vox.dmi'
 	recommended_species = list("vox")
 	bodytypes = BODYTYPE_VOX
 	special = TRUE
@@ -94,18 +94,17 @@
 
 //The tail
 /datum/sprite_accessory/tails/vox
-	icon = 'icons/mob/sprite_accessory/vox_tails.dmi'
+	icon = 'icons/mob/sprite_accessory/tails_vox.dmi'
 	name = "Tail"
 	icon_state = "vox"
 	recommended_species = list("vox")
 
 //The tail markings
 /datum/sprite_accessory/spines/vox
-	icon = 'icons/mob/sprite_accessory/vox_spines.dmi'
+	icon = 'icons/mob/sprite_accessory/spines_vox.dmi'
 	default_color = DEFAULT_TERTIARY
 	recommended_species = list("vox")
 	relevent_layers = list(BODY_BEHIND_LAYER, BODY_FRONT_LAYER)
-
 
 /datum/sprite_accessory/spines/vox/none
 	name = "None"

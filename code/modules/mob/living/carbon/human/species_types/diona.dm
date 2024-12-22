@@ -20,7 +20,7 @@
 	species_traits = list(
 		AGENDER,
 		HAIR, // only hair/diona
-		FACEHAIR, // only treebeard
+		FACEHAIR, // only diona
 		LIPS,
 		HAS_FLESH,
 		MUTCOLORS_PARTSONLY,
@@ -80,7 +80,7 @@
 	disliked_food = ALCOHOL
 	toxic_food = MEAT
 
-	ass_image = "icons/ass/assdiona.png"
+	//ass_image = "icons/ass/assdiona.png"
 
 /*
  *	TODO:
@@ -88,7 +88,6 @@
  *  name_plural = "Dionae"
  *	max_age = 300
  *	flesh_color = "#907E4A"
- *	default_hair_colour = "#000000"
  *	blood_color = "#004400"
  *	remains_type = /obj/effect/decal/cleanable/ash
  */

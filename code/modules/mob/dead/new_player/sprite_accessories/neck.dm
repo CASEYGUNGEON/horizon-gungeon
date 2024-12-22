@@ -10,8 +10,8 @@
 	recommended_species = null
 
 /datum/sprite_accessory/neck/mothfluff
-	icon = 'icons/mob/sprite_accessory/moth_fluff.dmi'
-	recommended_species = list("moth", "mammal", "insect")
+	icon = 'icons/mob/sprite_accessory/neck_moth.dmi'
+	recommended_species = list("moth", "insect", "anthromorph", "humanoid")
 
 /datum/sprite_accessory/neck/mothfluff/plain
 	name = "Plain"

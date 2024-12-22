@@ -126,3 +126,45 @@
 	color_src = USE_ONE_COLOR
 	extra = TRUE
 	extra_color_src = MUTCOLORS2
+
+//Synth Taurs (Ported from Virgo)
+/datum/sprite_accessory/taur/synthliz
+	name = "Cybernetic Lizard"
+	icon_state = "synthlizard"
+	taur_mode = BODYTYPE_TAUR_PAW
+	recommended_species = list("synthetic")
+
+/datum/sprite_accessory/taur/synthliz/inv
+	name = "Cybernetic Lizard (Inverted)"
+	icon_state = "synthlizardinv"
+
+/datum/sprite_accessory/taur/synthliz/feline
+	name = "Cybernetic Feline"
+	icon_state = "synthfeline"
+
+/datum/sprite_accessory/taur/synthliz/feline/inv
+	name = "Cybernetic Feline (Inverted)"
+	icon_state = "synthfelineinv"
+
+/datum/sprite_accessory/taur/synthliz/horse
+	name = "Cybernetic Horse"
+	icon_state = "synthhorse"
+	taur_mode = BODYTYPE_TAUR_HOOF
+	alt_taur_mode = BODYTYPE_TAUR_PAW
+
+/datum/sprite_accessory/taur/synthliz/horse/inv
+	name = "Cybernetic Horse (Inverted)"
+	icon_state = "synthhorseinv"
+
+/datum/sprite_accessory/taur/synthliz/wolf
+	name = "Cybernetic Wolf"
+	icon_state = "synthwolf"
+
+/datum/sprite_accessory/taur/synthliz/wolf/inv
+	name = "Cybernetic Wolf (Inverted)"
+	icon_state = "synthwolfinv"
+
+/datum/sprite_accessory/taur/synthliz/synthnaga
+	name = "Cybernetic Naga"
+	icon_state = "synthnaga"
+	taur_mode = BODYTYPE_TAUR_SNAKE
