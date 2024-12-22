@@ -49,6 +49,7 @@
 	heatmod = 1.5
 
 	mutanteyes = /obj/item/organ/eyes/night_vision/mushroom
+	limbs_icon = 'icons/mob/species/mush_parts_greyscale.dmi'
 	use_skintones = FALSE
 	var/datum/martial_art/mushpunch/mush
 	species_language_holder = /datum/language_holder/mushroom

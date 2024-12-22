@@ -1,15 +1,8 @@
-
-//DIONA: Sprites by skittles below
 /datum/sprite_accessory/hair/diona
 	icon = 'icons/mob/sprite_accessory/diona_hair.dmi'
 	recommended_species = list("diona")
 	bodytypes = BODYTYPE_DIONA
 	special = TRUE
-
-/datum/sprite_accessory/hair/diona/none
-	name = "None"
-	icon_state = "none"
-	factual = FALSE
 
 /datum/sprite_accessory/hair/diona/bracket
 	name = "Bracket"
@@ -30,6 +23,10 @@
 /datum/sprite_accessory/hair/diona/leaf
 	name = "Leafy"
 	icon_state = "leafy"
+
+/datum/sprite_accessory/hair/diona/leaf_big
+	name = "Leaf, Large"
+	icon_state = "bigleaf"
 
 /datum/sprite_accessory/hair/diona/meadow
 	name = "Meadow"
@@ -62,7 +59,6 @@
 /datum/sprite_accessory/hair/diona/wild
 	name = "Wildflowers"
 	icon_state = "wildflower"
-//Sprites by skittles above
 
 /datum/sprite_accessory/hair/diona/frost
 	name = "Frost"
@@ -80,10 +76,6 @@
 	name = "Sunflower"
 	icon_state = "sunflower"
 
-/datum/sprite_accessory/hair/diona/mushroom
-	name = "Field Mushrooms"
-	icon_state = "shroom"
-
 /datum/sprite_accessory/hair/diona/poppy
 	name = "Poppies"
 	icon_state = "poppy"
@@ -100,9 +92,9 @@
 	name = "Hydrangea"
 	icon_state = "hydrangea"
 
-/datum/sprite_accessory/hair/diona/leaf_big
-	name = "Leaf, Large"
-	icon_state = "bigleaf"
+/datum/sprite_accessory/hair/diona/mushroom
+	name = "Field Mushrooms"
+	icon_state = "shroom"
 
 //Sprites from Aurora Below
 
@@ -126,11 +118,6 @@
 	name = "Bull Horn"
 	icon_state = "bullhorn"
 
-/datum/sprite_accessory/hair/diona/spanishmoss
-	name = "Spanish Moss"
-	icon_state = "spanishmoss"
-//	glasses_over = FALSE
-
 /datum/sprite_accessory/hair/diona/thorns
 	name = "Thorns"
 	icon_state = "thorns"
@@ -138,6 +125,10 @@
 /datum/sprite_accessory/hair/diona/stump
 	name = "Stump"
 	icon_state = "stump"
+
+/datum/sprite_accessory/hair/diona/spanishmoss
+	name = "Spanish Moss"
+	icon_state = "spanishmoss"
 
 /// Facial hair
 
@@ -155,3 +146,11 @@
 /datum/sprite_accessory/facial_hair/diona/treebeard
 	name = "Treebeard"
 	icon_state = "treebeard"
+
+/datum/sprite_accessory/facial_hair/diona/human
+	name = "Human-ish Face"
+	icon_state = "human"
+
+/datum/sprite_accessory/facial_hair/diona/insect
+	name = "Insect-ish Face"
+	icon_state = "insect"

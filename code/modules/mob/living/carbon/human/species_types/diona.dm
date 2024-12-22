@@ -19,6 +19,8 @@
 	)
 	species_traits = list(
 		AGENDER,
+		HAIR, // only hair/diona
+		FACEHAIR, // only treebeard
 		LIPS,
 		HAS_FLESH,
 		MUTCOLORS_PARTSONLY,

@@ -11,7 +11,6 @@
 
 /datum/sprite_accessory/eyes/diona
 	organ_type = /obj/item/organ/eyes/night_vision/diona
-	name = "Dion-eye"
 	icon = 'icons/mob/species/diona_eyes.dmi'
 	icon_state = "blinkinghelmethead"
 	color_src = null // no recolor (for now)
@@ -53,22 +52,34 @@
 	name = "Lopsided Bioptics"
 	icon_state = "lopsided"
 
-/datum/sprite_accessory/eyes/diona/insecteyes
+/datum/sprite_accessory/eyes/diona/insect
 	name = "Insect-ish Optic Cluster"
-	icon_state = "insecteyes"
+	icon_state = "insect"
 
-/datum/sprite_accessory/eyes/diona/humaneyes
+/datum/sprite_accessory/eyes/diona/human
 	name = "Human-ish Bioptics"
-	icon_state = "humaneyes"
+	icon_state = "human"
 
-/datum/sprite_accessory/eyes/diona/skrelleyes
+/datum/sprite_accessory/eyes/diona/skrell
 	name = "Skrell-ish Bioptics"
-	icon_state = "skrelleyes"
+	icon_state = "skrell"
 
 /datum/sprite_accessory/eyes/diona/trioptics
 	name = "Trioptics"
 	icon_state = "trioptics"
 
+/datum/sprite_accessory/eyes/diona/trioptics_lopsided
+	name = "Asymmetric Trioptics"
+	icon_state = "shroom"
+
 /datum/sprite_accessory/eyes/diona/glorp
 	name = "Glorp"
 	icon_state = "glorp"
+
+/datum/sprite_accessory/eyes/diona/pentoptics
+	name = "Pentoptics"
+	icon_state = "spinner"
+
+/datum/sprite_accessory/eyes/diona/colony
+	name = "Colony"
+	icon_state = "sprout"
